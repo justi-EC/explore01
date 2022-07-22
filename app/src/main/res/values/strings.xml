@@ -20,4 +20,21 @@
     <string name="signup">회원가입</string>
     <string name="success_signup">회원가입 성공</string>
     <string name="failed_signup">회원가입 실패</string>
+    <string name="write">write_notice</string>
+    <string name="search">search</string>
+    <string name="write_post">게시글 작성</string>
+    <string name="title">제목</string>
+    <string name="contents">내용</string>
+    <string-array name="board_spinner">
+        <item>수업평가</item>
+        <item>중고거래</item>
+        <item>익명자유</item>
+        <item>분실물신고</item>
+    </string-array>
+    <string name="write_comment">댓글 입력</string>
+    <string name="watch_comment">댓글 보기</string>
+
+    <string name="title_home_e">HOME</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

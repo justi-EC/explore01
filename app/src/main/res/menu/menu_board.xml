@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/menu_write"
+    android:orderInCategory="100"
+    android:icon="@drawable/pencil"
+    app:showAsAction="ifRoom"
+    android:title="@string/write"
+    />
+<item
+    app:actionViewClass="androidx.appcompat.widget.SearchView"
+    android:id="@+id/menu_search"
+    android:icon="@drawable/magnifier"
+    android:iconifiedByDefault="false"
+    android:orderInCategory="50"
+    app:showAsAction="ifRoom|collapseActionView"
+    android:title="@string/search" />
+
+
+</menu>

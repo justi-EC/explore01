@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Explore01">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".BoardWriteActivity"></activity>
+        <activity android:name=".BoardActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".KakaoLoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,8 +25,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Explore01.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.Explore01.NoActionBar" />
         <activity
             android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
             android:exported="true">

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_marginBottom="5dp">
+
+
+    <TextView
+        android:id="@+id/post_title_text_view"
+        android:layout_width="352dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="This is post title..." />
+
+    <TextView
+        android:id="@+id/post_author_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_title_text_view"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_contents_text_view"
+        tools:text="name" />
+
+    <TextView
+        android:id="@+id/post_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_author_text_view"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/post_author_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/post_contents_text_view"
+        tools:text="2018. 05. 28." />
+
+    <TextView
+        android:id="@+id/post_contents_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_below="@id/post_date_text_view"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_title_text_view"
+        tools:text="This is post body..." />
+
+    <ImageView
+        android:id="@+id/post_comment_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/post_contents_text_view"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="commentImage"
+        android:src="@drawable/chat"
+        app:layout_constraintStart_toEndOf="@+id/post_date_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/post_contents_text_view" />
+
+    <TextView
+        android:id="@+id/post_comment_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/post_comment_image"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/post_contents_text_view"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/post_comment_image"
+        app:layout_constraintTop_toBottomOf="@+id/post_contents_text_view"
+        tools:text="50" />
+
+    <ImageButton
+        android:id="@+id/dropdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#00ffffff"
+        android:src="@drawable/arrow_down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/post_title_text_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
