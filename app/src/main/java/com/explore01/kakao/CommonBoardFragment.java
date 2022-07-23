@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
 import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
@@ -22,7 +23,7 @@ import com.explore01.kakao.model.OnDataChangedListener;
 import com.explore01.kakao.model.PostModel;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Query;
-import com.google.firebase.database.annotations.Nullable;
+
 
 public abstract class CommonBoardFragment extends Fragment {
     private RecyclerView recyclerView;

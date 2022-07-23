@@ -1,5 +1,7 @@
 package com.explore01.kakao.model;
 
+
+
 import com.explore01.kakao.R;
 import com.explore01.kakao.singleton.Comment;
 import com.explore01.kakao.singleton.User;

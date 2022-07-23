@@ -37,7 +37,7 @@ public class BoardTabFragment extends Fragment {
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         mViewPager = (ViewPager) view.findViewById(R.id.board_view_pager);
-        BoardTabPageAdapter boardTabPageAdapter = new BoardTabPageAdapter(getFragmentManager(), tabLayout.getTabCount());
+        BoardTabPageAdapter boardTabPageAdapter = new BoardTabPageAdapter(getParentFragmentManager(), tabLayout.getTabCount());
         mViewPager.setAdapter(boardTabPageAdapter);
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));

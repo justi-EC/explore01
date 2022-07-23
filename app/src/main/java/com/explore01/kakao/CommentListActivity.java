@@ -7,7 +7,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
-
+import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.explore01.kakao.model.CommentModel;
 import com.explore01.kakao.model.OnDataChangedListener;
 import com.google.android.material.snackbar.Snackbar;
-import com.google.firebase.database.annotations.Nullable;
+
 
 
 public class CommentListActivity extends AppCompatActivity {
