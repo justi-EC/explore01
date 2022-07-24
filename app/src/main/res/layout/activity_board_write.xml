@@ -45,7 +45,7 @@
 
         <Spinner
             android:id="@+id/board_spinner"
-            android:layout_width="279dp"
+            android:layout_width="250dp"
             android:layout_height="65dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"

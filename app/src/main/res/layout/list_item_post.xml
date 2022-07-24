@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/post_title_text_view"
-        android:layout_width="352dp"
+        android:layout_width="310dp"
         android:layout_height="26dp"
         android:layout_marginStart="8dp"
         android:ellipsize="end"

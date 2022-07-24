@@ -33,7 +33,7 @@
 
     <EditText
         android:id="@+id/comment_edit"
-        android:layout_width="347dp"
+        android:layout_width="300dp"
         android:layout_height="36dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="8dp"
