@@ -1,9 +1,10 @@
 {
-  "project_info": {
-    "project_number": "619473261235",
-    "project_id": "explore-1-142a2",
-    "storage_bucket": "explore-1-142a2.appspot.com"
-  },
+    "project_info": {
+        "project_number": "619473261235",
+        "firebase_url": "https://explore-1-142a2-default-rtdb.asia-southeast1.firebasedatabase.app/",
+        "project_id": "explore-1-142a2",
+        "storage_bucket": "explore-1-142a2.appspot.com"
+    },
   "client": [
     {
       "client_info": {
